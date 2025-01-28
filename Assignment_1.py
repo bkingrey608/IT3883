@@ -14,15 +14,15 @@ input_buffer = [] # create an empty list
 
 while True:  # continue displaying the menu until the user exits the program
     print('\nMenu:')
-    print('\n1: Append Data to the input buffer.' )
-    print('2: Clear the input buffer.')
-    print('3: Display the input buffer.')
-    print('4: Exit the program.')
+    print('1. Append Data to the input buffer.' )
+    print('2. Clear the input buffer.')
+    print('3. Display the input buffer.')
+    print('4. Exit the program.')
 
-    selection = input('\nPlease select 1-4\n') # assign user input to the variable 'selection'
+    selection = input('\nPlease select 1-4  ') # assign user input to the variable 'selection'
 
     if selection == '1':
-        append_data = input('\nEnter data to append to the buffer:\n') #assing user input to append_data
+        append_data = input('Enter data to append to the buffer:  ') #assing user input to append_data
         input_buffer.append(append_data) # add user input to the list
     elif selection == '2':
         input_buffer.clear() # clear the list
